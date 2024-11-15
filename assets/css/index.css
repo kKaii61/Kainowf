@@ -119,6 +119,9 @@
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
+
+  --image-avatar: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/me.png);
+  --bg-gif: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/clip.gif);
 }
 
 /*-----------------------------------*\
@@ -303,7 +306,7 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    background-image: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/clip.gif);
+    background-image: var(--bg-gif);
     background-size: cover;
     background-position: bottom;
   }
@@ -711,7 +714,7 @@ span.typing-text {
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   animation: morphBlob 8s ease-in-out infinite;
   background-repeat: no-repeat;
-  background-image: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/me.png);
+  background-image: var(--img-avatar);
 
   background-size: cover;
 }
@@ -759,7 +762,7 @@ span.typing-text {
     height: 240px;
     width: 240px;
     border-color: var(--pink-light);
-    background-image: url('/assets/img/me.png');
+    background-image: var(--image-avatar);
     background-size: cover;
     animation: morphBlob 4s ease-in-out infinite;
   }
