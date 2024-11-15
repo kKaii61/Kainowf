@@ -711,7 +711,8 @@ span.typing-text {
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   animation: morphBlob 8s ease-in-out infinite;
   background-repeat: no-repeat;
-  background-image: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/me.png);
+  background-image: url(assets/img/me.png);
+
   background-size: cover;
 }
 
