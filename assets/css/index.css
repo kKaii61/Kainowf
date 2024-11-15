@@ -303,7 +303,7 @@ body {
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    background-image: url(../../assets/img/clip.gif);
+    background-image: url(Personal-Portfolio-v1/assets/img/clip.gif);
     background-size: cover;
     background-position: bottom;
   }
@@ -710,7 +710,7 @@ span.typing-text {
   border: 2px solid var(--off-white);
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   animation: morphBlob 8s ease-in-out infinite;
-  background-image: url('../../assets/img/me.png');
+  background-image: url('Personal-Portfolio-v1/assets/img/me.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
