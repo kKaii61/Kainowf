@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | Kainowf</title>
+
+    <!--
+        - favicon
+    -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/logo.ico"
+      type="image/x-icon" />
+
+    <!--
+        - CSS
+    -->
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <!--
+        - SCRIPT
+    -->
+    <script defer src="assets/js/script.js"></script>
+    <!--
+        - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet" />
+    <!--
+        - font awesome icon link
+    -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <!--
+      - #HEADER
+    -->
+    <header>
+      <div class="header-container" id="top">
+        <div class="logo-container">
+          <img src="./assets/img/logobg-light.png" />
+          <p title="name" class="header-name">Kainowf</p>
+          <i class="fas fa-bars" id="menu-toggle"></i>
+        </div>
+        <div class="nav-container">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a title="home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a title="about"><i class="fas fa-user"></i> About</a>
+            </li>
+            <li class="nav-item">
+              <a title="project"><i class="fas fa-code"></i> Projects</a>
+            </li>
+            <li class="nav-item">
+              <a title="contact"><i class="fas fa-envelope"></i> Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--
+      - #MAIN
+    -->
+    <main>
+      <div id="home"></div>
+      <div class="main-container">
+        <!--
+          - #HERO
+        -->
+        <div class="hero-section">
+          <div class="hero-content">
+            <div class="hero-text">
+              <span class="greeting">Hello, I'm</span>
+              <h1 class="name clip-text">Nguyen Quang Kha</h1>
+              <div class="title-wrapper">
+                <span class="title">I'm a </span>
+                <span class="typing-text">Software Developer</span>
+              </div>
+              <!-- <div class="hero-buttons">
+                <a href="#contact" class="btn contact-btn">
+                  <i class="fas fa-paper-plane"></i> Contact Me
+                </a>
+                <a href="#" class="btn download-btn">
+                  <i class="fas fa-download"></i> Download CV
+                </a>
+              </div> -->
+            </div>
+            <div class="hero-image">
+              <!-- <img
+                class="image"
+                width="200px"
+                height="200px"
+                src="/assets/img/me.png"
+                alt="My Picture" /> -->
+              <div class="image-outline"></div>
+            </div>
+          </div>
+        </div>
+        <!--
+          - #ABOUT
+          -->
+
+        <div id="about"></div>
+        <div class="about-section">
+          <div class="about-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+              <div class="about-text">
+                <p>
+                  Hey there! 👋 I'm
+                  <span class="hightlight inline">Nguyen Quang Kha</span>, a
+                  passionate geek with a creative and hands-on approach to
+                  problem-solving. I thrive on tackling challenges and
+                  constantly seek new knowledge to fuel my curiosity and growth!
+                </p>
+              </div>
+
+              <div class="skills-container">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML</h4>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 90%"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS</h4>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 85%"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                    <div class="progress-bar">
+                      <div class="progress" style="width: 75%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+          - #LEARNING
+        -->
+        <div class="learning-section" id="learning">
+          <div class="learning-container">
+            <div class="learning-content">
+              <div class="skills-container">
+                <h3>Currently Learning</h3>
+                <div class="skills-grid">
+                  <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h4>React</h4>
+                    <h5 class="blur-1">In progress</h5>
+                    <!-- <div class="progress-bar">
+                      <div class="progress" style="width: 90%"></div>
+                    </div> -->
+                  </div>
+
+                  <div class="skill-card">
+                    <div
+                      class="img-container"
+                      style="border-radius: 12px; padding: 2px">
+                      <img
+                        src="/assets/img/express.svg"
+                        width="50px"
+                        height="50px"
+                        alt="ExpressJs" />
+                    </div>
+                    <h4>Express</h4>
+                    <h5 class="blur-1">In progress</h5>
+                    <!-- <div class="progress-bar">
+                      <div class="progress" style="width: 85%"></div>
+                    </div> -->
+                  </div>
+
+                  <div class="skill-card">
+                    <div
+                      class="img-container"
+                      style="border-radius: 12px; padding: 2px">
+                      <img
+                        src="/assets/img/mongodb.svg"
+                        width="50px"
+                        height="50px"
+                        alt="ExpressJs" />
+                    </div>
+                    <h4>MongoDB</h4>
+                    <h5 class="blur-1">In progress</h5>
+                    <!-- <div class="progress-bar">
+                      <div class="progress" style="width: 75%"></div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--
+          - #Project
+        -->
+        <div class="project-section" id="project">
+          <div class="project-container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+              <!-- Project Card 1 -->
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="assets/img/project1.png" alt="Project 1" />
+                  <div class="project-overlay">
+                    <div class="project-links">
+                      <a href="#" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a href="#" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title">Todo List</h3>
+                  <p class="project-description">
+                    A Todo List app have fundamentals functions. Even export
+                    something out!
+                  </p>
+                  <div class="project-tech">
+                    <span>React</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project Card 2 -->
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="assets/img/iphonecal.jpg" alt="Project 2" />
+                  <div class="project-overlay">
+                    <div class="project-links">
+                      <a
+                        href="https://github.com/kKaii61/iphone-calculator"
+                        target="_blank"
+                        class="project-link">
+                        <i class="fab fa-github"></i>
+                      </a>
+                      <a
+                        href="https://kkaii61.github.io/iphone-calculator/"
+                        target="_blank"
+                        class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-content">
+                  <h3 class="project-title">Iphone Calculator</h3>
+                  <p class="project-description">
+                    An Responsive Iphone Calculator clone, with all basic
+                    fucntions added.
+                  </p>
+                  <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-section" id="contact">
+          <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-content">
+              <div class="contact-info">
+                <h3>Let's Connect!</h3>
+                <p>
+                  Feel free to reach out for collaborations or just a friendly
+                  hello! 😊
+                </p>
+
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                      <h4>Email</h4>
+                      <p>kn06102003@gmail.com</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                      <h4>Location</h4>
+                      <p>Ho Chi Minh City, Vietnam</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="social-links">
+                  <a
+                    href="https://github.com/kKaii61"
+                    class="social-link"
+                    title="GitHub"
+                    target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/kha-nguy%E1%BB%85n-1459832b5"
+                    class="social-link"
+                    title="LinkedIn"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/alexxxxxxx0/"
+                    class="social-link"
+                    title="Facebook"
+                    target="_blank">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-form">
+                <form id="contactForm">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Your Name"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="Your Email"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      placeholder="Subject"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      id="message"
+                      name="message"
+                      placeholder="Your Message"
+                      required></textarea>
+                  </div>
+                  <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--
+      - #FOOTER
+    -->
+    <footer></footer>
+  </body>
+</html>
