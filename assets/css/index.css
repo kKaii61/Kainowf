@@ -120,8 +120,8 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
-  --image-avatar: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/me.png);
-  --bg-gif: url(https://kkaii61.github.io/Personal-Portfolio-v1/assets/img/clip.gif);
+  --image-avatar: url(../img/me.png);
+  --bg-gif: url(../img/clip.gif);
 }
 
 /*-----------------------------------*\
@@ -294,12 +294,12 @@ body {
 .blur-1 {
   filter: blur(1px);
 }
-
+/* 
 .mask-cloud {
   -webkit-mask-image: url(./assets/img/cloud.png);
   mask-image: url(/assets/img/cloud.png);
   mask-repeat: no-repeat;
-}
+} */
 
 .clip-text {
   @supports (background-clip: text) or (-webkit-background-clip: text) {
