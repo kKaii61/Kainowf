@@ -118,25 +118,51 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Contact form handling
+const result = document.getElementById('result');
 document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contactForm');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
-
       // Get form data
       const formData = new FormData(contactForm);
       const data = Object.fromEntries(formData);
-
-      // Here you would typically send the data to a server
-      console.log('Form submitted:', data);
-
-      // Clear form
-      contactForm.reset();
-
-      // Show success message (you can customize this)
-      alert('Message sent successfully!');
+      var jsonData = JSON.stringify(data);
+      result.innerHTML = 'Please wait...';
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/object',
+        },
+        body: jsonData,
+      })
+        .then(async (response) => {
+          let json = await response.json();
+          if (response.status == 200) {
+            result.innerHTML = json.message;
+            result.classList.remove('text-gray');
+            result.classList.add('text-green');
+          } else {
+            console.log(response);
+            result.innerHTML = json.message;
+            result.classList.remove('text-gray');
+            result.classList.add('text-red');
+          }
+        })
+        .catch((error) => {
+          console.log(error);
+          result.innerHTML = 'Something went wrong!';
+        })
+        .then(function () {
+          contactForm.reset();
+          setTimeout(() => {
+            result.innerHTML = '';
+            result.style.display = 'none';
+          }, 5000);
+        });
     });
+    contactForm.reset();
   }
 });
 
