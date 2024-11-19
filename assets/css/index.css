@@ -339,6 +339,17 @@ body {
 div.arrow.no-border-radius {
   border-radius: 0px;
 }
+
+.text-gray {
+  color: #c2c2c2;
+}
+
+.text-green {
+  color: rgba(16, 185, 129);
+}
+.text-red {
+  color: rgb(185, 16, 16);
+}
 /*-----------------------------------*\
   #HTML
 \*-----------------------------------*/
@@ -1277,4 +1288,15 @@ span.typing-text {
 
 .contact-form {
   animation-delay: 0.2s;
+}
+
+.result-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#result {
+  margin-top: 20px;
+  align-self: center;
 }
