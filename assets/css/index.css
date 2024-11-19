@@ -1074,6 +1074,18 @@ span.typing-text {
   font-size: 0.8rem;
 }
 
+.project-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.project-status span {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.6rem;
+}
 /* Responsive Design */
 @media screen and (max-width: 768px) {
   .project-grid {
