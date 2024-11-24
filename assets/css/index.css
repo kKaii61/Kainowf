@@ -1273,6 +1273,22 @@ span.typing-text {
 }
 
 /* Responsive Design */
+@media screen and (max-width: 567px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info,
+  .contact-form {
+    max-width: 500px;
+    min-width: 240px;
+    margin: 0;
+  }
+  .contact-item p {
+    font-size: 12px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .contact-content {
     grid-template-columns: 1fr;
@@ -1281,7 +1297,8 @@ span.typing-text {
   .contact-info,
   .contact-form {
     max-width: 500px;
-    margin: 0 auto;
+    min-width: 240px;
+    margin: 0;
   }
 }
 
