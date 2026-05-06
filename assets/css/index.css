@@ -120,8 +120,8 @@
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
-  --image-avatar: url(../../assets/img/me.png);
-  --bg-gif: url(../../assets/img/clip.gif);
+  --image-avatar: url(/assets/img/me.png);
+  --bg-gif: url(/assets/img/clip.gif);
 }
 
 /*-----------------------------------*\
@@ -296,7 +296,7 @@ body {
 }
 /* 
 .mask-cloud {
-  -webkit-mask-image: url(./assets/img/cloud.png);
+  -webkit-mask-image: url(/assets/img/cloud.png);
   mask-image: url(/assets/img/cloud.png);
   mask-repeat: no-repeat;
 } */
