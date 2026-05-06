@@ -958,11 +958,6 @@ span.typing-text {
   }
 }
 
-  .skills-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 /*-----------------------------------*\
   #PROJECT
 \*-----------------------------------*/
