@@ -1,91 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio | Kainowf</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Kainowf</title>
+
+  <!--
         - favicon
     -->
-    <link
-      rel="shortcut icon"
-      href="./assets/img/logo.ico"
-      type="image/x-icon" />
+  <link rel="shortcut icon" href="./assets/img/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
         - CSS
     -->
-    <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
 
-    <!--
+  <!--
         - SCRIPT
     -->
-    <script defer src="assets/js/script.js"></script>
-    <!--
+  <script defer src="assets/js/script.js"></script>
+  <!--
         - google font link
     -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet" />
-    <!--
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!--
         - font awesome icon link
     -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!-- Scroll Progress Bar -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!--
       - #HEADER
     -->
-    <header>
-      <div class="header-container" id="top">
-        <div class="logo-container">
-          <img alt="Logo" src="./assets/img/logobg-light.png" />
-          <p title="name" class="header-name">Kainowf</p>
-          <i class="fas fa-bars" id="menu-toggle"></i>
-        </div>
-        <div class="nav-container">
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a title="home"><i class="fas fa-home"></i> Home</a>
-            </li>
-            <li class="nav-item">
-              <a title="about"><i class="fas fa-user"></i> About</a>
-            </li>
-            <li class="nav-item">
-              <a title="project"><i class="fas fa-code"></i> Projects</a>
-            </li>
-            <li class="nav-item">
-              <a title="contact"><i class="fas fa-envelope"></i> Contacts</a>
-            </li>
-          </ul>
-        </div>
+  <header>
+    <div class="header-container" id="top">
+      <div class="logo-container">
+        <img alt="Logo" src="./assets/img/logobg-light.png" />
+        <p title="name" class="header-name">Kainowf</p>
+        <i class="fas fa-bars" id="menu-toggle"></i>
       </div>
-    </header>
-    <!--
+      <div class="nav-container">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" title="home"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" title="about"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" title="project"><i class="fas fa-code"></i> Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" title="contact"><i class="fas fa-envelope"></i> Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--
       - #MAIN
     -->
-    <main>
-      <div id="home"></div>
-      <div class="main-container">
-        <!--
+  <main>
+    <div id="home"></div>
+    <div class="main-container">
+      <!--
           - #HERO
         -->
-        <div class="hero-section">
-          <div class="hero-content">
-            <div class="hero-text">
-              <span class="greeting">Hello, I'm</span>
-              <h1 class="name clip-text">Nguyen Quang Kha</h1>
-              <div class="title-wrapper">
-                <span class="title">I'm a </span>
-                <span class="typing-text">Software Developer</span>
-              </div>
-              <!-- <div class="hero-buttons">
+      <div class="hero-section">
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name clip-text">Nguyen Quang Kha</h1>
+            <div class="title-wrapper">
+              <span class="title">I'm a </span>
+              <span class="typing-text">Software Developer</span>
+            </div>
+            <!-- <div class="hero-buttons">
                 <a href="#contact" class="btn contact-btn">
                   <i class="fas fa-paper-plane"></i> Contact Me
                 </a>
@@ -93,333 +90,349 @@
                   <i class="fas fa-download"></i> Download CV
                 </a>
               </div> -->
-            </div>
-            <div class="hero-image">
-              <!-- <img
+          </div>
+          <div class="hero-image">
+            <!-- <img
                 class="image"
                 width="200px"
                 height="200px"
                 src="/assets/img/me.png"
                 alt="My Picture" /> -->
-              <div class="image-outline"></div>
-            </div>
+            <div class="image-outline"></div>
           </div>
         </div>
-        <!--
+      </div>
+
+      <!-- Section Divider -->
+      <div class="section-divider"></div>
+
+      <!--
           - #ABOUT
           -->
 
-        <div id="about"></div>
-        <div class="about-section">
-          <div class="about-container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-              <div class="about-text">
-                <p>
-                  Hey there! 👋 I'm
-                  <span class="hightlight inline">Nguyen Quang Kha</span>, a
-                  passionate geek with a creative and hands-on approach to
-                  problem-solving. I thrive on tackling challenges and
-                  constantly seek new knowledge to fuel my curiosity and growth!
-                </p>
-              </div>
+      <div id="about"></div>
+      <div class="about-section">
+        <div class="about-container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>
+                Hey there! 👋 I'm
+                <span class="hightlight inline">Nguyen Quang Kha</span>, a
+                passionate geek with a creative and hands-on approach to
+                problem-solving. I thrive on tackling challenges and
+                constantly seek new knowledge to fuel my curiosity and growth!
+              </p>
+              <p>
+                With a strong foundation in web development and specialized expertise in
+                <span class="hightlight inline">Odoo customization and development</span>, I enjoy building
+                practical solutions that make a real impact. My journey in tech has been driven
+                by curiosity and a desire to create meaningful digital experiences.
+              </p>
+              <p>
+                I specialize in developing custom Odoo modules that enhance functionality and user experience,
+                with a focus on solving real-world business challenges through innovative technical solutions.
+              </p>
+            </div>
 
-              <div class="skills-container">
-                <h3>Technical Skills</h3>
-                <div class="skills-grid">
-                  <div class="skill-card">
-                    <i class="fab fa-html5"></i>
-                    <h4>HTML</h4>
-                    <div class="progress-bar">
-                      <div class="progress" style="width: 90%"></div>
-                    </div>
+            <div class="skills-container">
+              <h3>Technical Skills</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="fab fa-html5"></i>
+                  <h4>HTML</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
                   </div>
+                </div>
 
-                  <div class="skill-card">
-                    <i class="fab fa-css3-alt"></i>
-                    <h4>CSS</h4>
-                    <div class="progress-bar">
-                      <div class="progress" style="width: 85%"></div>
-                    </div>
+                <div class="skill-card">
+                  <i class="fab fa-css3-alt"></i>
+                  <h4>CSS</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
                   </div>
+                </div>
 
-                  <div class="skill-card">
-                    <i class="fab fa-js"></i>
-                    <h4>JavaScript</h4>
-                    <div class="progress-bar">
-                      <div class="progress" style="width: 75%"></div>
-                    </div>
+                <div class="skill-card">
+                  <i class="fab fa-js"></i>
+                  <h4>JavaScript</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fab fa-python"></i>
+                  <h4>Python</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="img-container" style="border-radius: 12px; padding: 2px">
+                    <img src="./assets/img/odoo-logo.png" width="50px" height="50px" alt="Odoo" />
+                  </div>
+                  <h4>Odoo</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <i class="fas fa-database"></i>
+                  <h4>SQL</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <!--
-          - #LEARNING
-        -->
-        <div class="learning-section" id="learning">
-          <div class="learning-container">
-            <div class="learning-content">
-              <div class="skills-container">
-                <h3>Currently Learning</h3>
-                <div class="skills-grid">
-                  <div class="skill-card">
-                    <i class="fab fa-react"></i>
-                    <h4>React</h4>
-                    <h5 class="blur-1">In progress</h5>
-                    <!-- <div class="progress-bar">
-                      <div class="progress" style="width: 90%"></div>
-                    </div> -->
-                  </div>
 
-                  <div class="skill-card">
-                    <div
-                      class="img-container"
-                      style="border-radius: 12px; padding: 2px">
-                      <img
-                        src="./assets/img/express.svg"
-                        width="50px"
-                        height="50px"
-                        alt="ExpressJs" />
-                    </div>
-                    <h4>Express</h4>
-                    <h5 class="blur-1">In progress</h5>
-                    <!-- <div class="progress-bar">
-                      <div class="progress" style="width: 85%"></div>
-                    </div> -->
-                  </div>
-
-                  <div class="skill-card">
-                    <div
-                      class="img-container"
-                      style="border-radius: 12px; padding: 2px">
-                      <img
-                        src="./assets/img/mongodb.svg"
-                        width="50px"
-                        height="50px"
-                        alt="ExpressJs" />
-                    </div>
-                    <h4>MongoDB</h4>
-                    <h5 class="blur-1">In progress</h5>
-                    <!-- <div class="progress-bar">
-                      <div class="progress" style="width: 75%"></div>
-                    </div> -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--
-          - #Project
-        -->
-        <div class="project-section" id="project">
-          <div class="project-container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="project-grid">
-              <!-- Project Card 1 -->
-              <div class="project-card">
-                <div class="project-image">
-                  <img src="assets/img/todolist.jpg" alt="Project 1" />
-                  <div class="project-overlay">
-                    <div class="project-links">
-                      <a
-                        title="Pure Todolist Github Page"
-                        href="https://github.com/kKaii61/pure-todolist"
-                        target="_blank"
-                        class="project-link">
-                        <i class="fab fa-github"></i>
-                      </a>
-                      <a
-                        title="Pure Todolist Website"
-                        href="https://kkaii61.github.io/pure-todolist/"
-                        target="_blank"
-                        class="project-link">
-                        <i class="fas fa-external-link-alt"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project-content">
-                  <h3 class="project-title">Todo List</h3>
-                  <div class="project-status">
-                    <span class="text-gray">In Progress..</span>
-                  </div>
-                  <p class="project-description">
-                    A Todo List app have fundamentals functions. Even export
-                    something out!
-                  </p>
-                  <div class="project-tech">
-                    <span>React</span>
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Project Card 2 -->
-              <div class="project-card">
-                <div class="project-image">
-                  <img src="assets/img/iphonecal.jpg" alt="Project 2" />
-                  <div class="project-overlay">
-                    <div class="project-links">
-                      <a
-                        title="Responsive Iphone Calculator Github Page"
-                        href="https://github.com/kKaii61/iphone-calculator"
-                        target="_blank"
-                        class="project-link">
-                        <i class="fab fa-github"></i>
-                      </a>
-                      <a
-                        title="Responsive Iphone Calculator Website"
-                        href="https://kkaii61.github.io/iphone-calculator/"
-                        target="_blank"
-                        class="project-link">
-                        <i class="fas fa-external-link-alt"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div class="project-content">
-                  <h3 class="project-title">Iphone Calculator</h3>
-                  <div class="project-status">
-                    <span class="text-green">Complete</span>
-                  </div>
-                  <p class="project-description">
-                    An Responsive Iphone Calculator clone, with all basic
-                    fucntions added.
-                  </p>
-                  <div class="project-tech">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-section" id="contact">
-          <div class="contact-container">
-            <h2 class="section-title">Get In Touch</h2>
-
-            <div class="contact-content">
-              <div class="contact-info">
-                <h3>Let's Connect!</h3>
-                <p>
-                  Feel free to reach out for collaborations or just a friendly
-                  hello! 😊
-                </p>
-
-                <div class="contact-details">
-                  <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                      <h4>Email</h4>
-                      <p>kn06102003@gmail.com</p>
-                    </div>
-                  </div>
-
-                  <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div>
-                      <h4>Location</h4>
-                      <p>Ho Chi Minh City, Vietnam</p>
-                    </div>
+            <div class="skills-container">
+              <h3>Odoo Expertise</h3>
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <i class="fas fa-code"></i>
+                  <h4>Module Development</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
                   </div>
                 </div>
 
-                <div class="social-links">
-                  <a
-                    href="https://github.com/kKaii61"
-                    class="social-link"
-                    title="GitHub"
-                    target="_blank">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/in/kha-nguy%E1%BB%85n-1459832b5"
-                    class="social-link"
-                    title="LinkedIn"
-                    target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                  <a
-                    href="https://www.facebook.com/alexxxxxxx0/"
-                    class="social-link"
-                    title="Facebook"
-                    target="_blank">
-                    <i class="fab fa-facebook"></i>
-                  </a>
+                <div class="skill-card">
+                  <i class="fas fa-cogs"></i>
+                  <h4>Customization</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                  </div>
                 </div>
-              </div>
 
-              <div class="contact-form">
-                <form
-                  action="https://api.web3forms.com/submit"
-                  method="POST"
-                  id="contactForm">
-                  <input
-                    type="hidden"
-                    name="access_key"
-                    value="9a36af3d-4931-43c2-a8b6-dbf51ad4e0b7" />
-                  <input
-                    type="hidden"
-                    name="subject"
-                    value="New Submission from Web3forms" />
-                  <input
-                    type="hidden"
-                    name="from_name"
-                    value="Portfolio | Kainowf" />
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      placeholder="Your Name"
-                      required />
+                <div class="skill-card">
+                  <i class="fas fa-paint-brush"></i>
+                  <h4>UI/UX Enhancement</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
                   </div>
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="Your Email"
-                      required />
+                </div>
+
+                <div class="skill-card">
+                  <i class="fas fa-database"></i>
+                  <h4>ORM Development</h4>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
                   </div>
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      placeholder="Subject"
-                      required />
-                  </div>
-                  <div class="form-group">
-                    <textarea
-                      id="message"
-                      name="message"
-                      placeholder="Your Message"
-                      required></textarea>
-                  </div>
-                  <button type="submit" class="submit-btn">
-                    <i class="fas fa-paper-plane"></i> Send Message
-                  </button>
-                  <div class="result-group">
-                    <p class="form-group text-gray" id="result"></p>
-                  </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
-    <!--
+
+      <!-- Section Divider -->
+      <div class="section-divider"></div>
+
+
+
+      <!-- Section Divider -->
+      <div class="section-divider"></div>
+
+      <!--
+          - #Project
+        -->
+      <div class="project-section" id="project">
+        <div class="project-container">
+          <h2 class="section-title">My Projects</h2>
+          <div class="project-grid">
+            <!-- Project Card 1: Odoo chat_edit_and_delete -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/img/chat/1.jpg"" alt=" Odoo Chat Module" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a title="chat_edit_and_delete Github Page"
+                      href="https://github.com/kKaii61/Odoo_Custom_Modules/tree/17.0/chat_edit_and_delete"
+                      target="_blank" class="project-link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">chat_edit_and_delete</h3>
+                <div class="project-status">
+                  <span class="text-green">Completed</span>
+                </div>
+                <p class="project-description">
+                  Custom Odoo 17 module that enhances chat functionality by allowing users to edit and delete messages,
+                  improving user experience and communication management.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Odoo 17</span>
+                  <span>XML</span>
+                  <span>JavaScript</span>
+                  <span>QWeb</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Card 2: Odoo detailed_tree_view -->
+            <div class="project-card">
+              <div class="project-image">
+                <img src="assets/img/chat/1.jpg" alt="Odoo Tree View Module" />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a title="detailed_tree_view Github Page"
+                      href="https://github.com/kKaii61/Odoo_Custom_Modules/tree/17.0/detailed_tree_view" target="_blank"
+                      class="project-link">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title">detailed_tree_view</h3>
+                <div class="project-status">
+                  <span class="text-yellow">In Development</span>
+                </div>
+                <p class="project-description">
+                  Custom Odoo 17 module that enhances tree view functionality with detailed information display and
+                  improved data visualization capabilities.
+                </p>
+                <div class="project-tech">
+                  <span>Python</span>
+                  <span>Odoo 17</span>
+                  <span>XML</span>
+                  <span>JavaScript</span>
+                  <span>QWeb</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Divider -->
+      <div class="section-divider"></div>
+
+      <div class="contact-section" id="contact">
+        <div class="contact-container">
+          <h2 class="section-title">Get In Touch</h2>
+
+          <div class="contact-content">
+            <div class="contact-info">
+              <h3>Let's Connect!</h3>
+              <p>
+                Feel free to reach out for collaborations or just a friendly
+                hello! 😊
+              </p>
+
+              <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <div>
+                    <h4>Email</h4>
+                    <p>kn06102003@gmail.com</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div>
+                    <h4>Location</h4>
+                    <p>Ho Chi Minh City, Vietnam</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="https://github.com/kKaii61" class="social-link" title="GitHub" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kainowf" class="social-link" title="LinkedIn"
+                  target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.facebook.com/alexxxxxxx0/" class="social-link" title="Facebook" target="_blank">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+                <input type="hidden" name="access_key" value="9a36af3d-4931-43c2-a8b6-dbf51ad4e0b7" />
+                <input type="hidden" name="subject" value="New Submission from Web3forms" />
+                <input type="hidden" name="from_name" value="Portfolio | Kainowf" />
+                <div class="form-group">
+                  <input type="text" id="name" name="name" placeholder="Your Name" required />
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" name="email" placeholder="Your Email" required />
+                </div>
+                <div class="form-group">
+                  <input type="text" id="subject" name="subject" placeholder="Subject" required />
+                </div>
+                <div class="form-group">
+                  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+                <div class="result-group">
+                  <p class="form-group text-gray" id="result"></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!--
       - #FOOTER
     -->
-    <footer></footer>
-  </body>
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-nav">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+            <li><a href="#project"><i class="fas fa-code"></i> Projects</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a href="https://github.com/kKaii61" class="social-link" title="GitHub" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kha-nguy%E1%BB%85n-1459832b5" class="social-link" title="LinkedIn"
+              target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/alexxxxxxx0/" class="social-link" title="Facebook" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kainowf. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
